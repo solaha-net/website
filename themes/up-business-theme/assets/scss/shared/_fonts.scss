@@ -15,3 +15,30 @@
   src: url('{{ site.BaseURL }}/fonts/SF-Pro-Display-Bold.otf') format('opentype');
   font-weight: bold;
 }
+
+
+$font: 'Vazir'; // font-family
+
+@font-face {
+  font-family: $font;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("{{ site.BaseURL }}/fonts/Vazir-Regular.eot");
+  src: url("{{ site.BaseURL }}/fonts/Vazir-Regular.eot?#") format("embedded-opentype"),
+  url("{{ site.BaseURL }}/fonts/Vazir-Regular.woff2") format("woff2"),
+  url("{{ site.BaseURL }}/fonts/Vazir-Regular.woff") format("woff"),
+  url("{{ site.BaseURL }}/fonts/Vazir-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url("{{ site.BaseURL }}/fonts/Vazir-Bold.eot");
+  src: url("{{ site.BaseURL }}/fonts/Vazir-Bold.eot?#") format("embedded-opentype"),
+  url("{{ site.BaseURL }}/fonts/Vazir-Bold.woff2") format("woff2"),
+  url("{{ site.BaseURL }}/fonts/Vazir-Bold.woff") format("woff"),
+  url("{{ site.BaseURL }}/fonts/Vazir-Bold.ttf") format("truetype");
+}
