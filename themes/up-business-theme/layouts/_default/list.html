@@ -16,9 +16,7 @@
         <div class="col-12 col-md-6 col-lg-4">
           <a class="card text-decoration-none h-100" href="{{ .Permalink }}">
             <div class="aspect-ratio-62-5">
-              
               {{ with .Resources.GetMatch ( index .Params.images 0) }}
-                <!-- <img alt="{{.Title}}" src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}"> -->
                 <img class="" src="{{ .RelPermalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}">
               {{ end }}
             </div>
