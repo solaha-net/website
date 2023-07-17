@@ -1,4 +1,4 @@
-baseURL: "https://www.example.com/"
+baseURL: "https://www.solaha.net/"
 theme: "up-business-theme"
 languageCode: "en-us"
 
@@ -40,11 +40,11 @@ params:
 
 menus:
   main:
-    - name: "Home"
+    - name: "خانه"
       url: "/"
       weight: 1
 
-    - name: "Blog"
+    - name: "مطالب"
       url: "/blog"
       weight: 5
 
@@ -55,11 +55,11 @@ menus:
   #     pre: "btn btn-primary text-light"
 
   footer:
-    - name: "Home"
+    - name: "خانه"
       url: "/"
       weight: 1
 
-    - name: "Blog"
+    - name: "مطالب"
       url: "/blog"
       weight: 5
 
