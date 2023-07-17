@@ -48,6 +48,16 @@ menus:
       url: "/blog"
       weight: 5
 
+    - name: "درباره ما"
+      url: "/about"
+      weight: 5
+    
+    - name: "گیت هاب"
+      url: "https://github.com/solaha-net/website"
+      weight: 6
+    
+    
+
   # buttons:
   #   - name: "Book a call"
   #     url: "/#"
@@ -62,6 +72,14 @@ menus:
     - name: "مطالب"
       url: "/blog"
       weight: 5
+
+    - name: "درباره ما"
+      url: "/about"
+      weight: 5
+    
+    - name: "گیت هاب"
+      url: "https://github.com/solaha-net/website"
+      weight: 6
 
 taxonomies:
   series: "series"
