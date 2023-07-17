@@ -9,6 +9,14 @@
           {{ with .Params.description }}
             <p class="text-black-61 text-center pb-3">{{ . }}</p>
           {{ end }}
+          <div class="text-center">
+            {{ $taxonomy := "tags" }}
+            {{ with .GetTerms $taxonomy }}
+                {{ range . }}
+                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                {{ end }}
+            {{ end }}
+          </div>
         </div>
       </div>
       <div class="row pb-5">

@@ -14,7 +14,6 @@ categories = [
     "شهدا",
     "مدافع حرم",
 ]
-series = ["Themes Guide"]
 aliases = [""]
 +++
 
