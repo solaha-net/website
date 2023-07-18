@@ -44,17 +44,21 @@ menus:
       url: "/"
       weight: 1
 
-    - name: "مطالب"
-      url: "/blog"
-      weight: 5
+    - name: "اشخاص"
+      url: "/person"
+      weight: 2
+
+    - name: "کتاب"
+      url: "/book"
+      weight: 3
 
     - name: "درباره ما"
       url: "/about"
-      weight: 5
+      weight: 4
     
     - name: "گیت هاب"
       url: "https://github.com/solaha-net/website"
-      weight: 6
+      weight: 5
     
     
 
@@ -69,18 +73,22 @@ menus:
       url: "/"
       weight: 1
 
-    - name: "مطالب"
-      url: "/blog"
-      weight: 5
+    - name: "اشخاص"
+      url: "/person"
+      weight: 2
+
+    - name: "کتاب"
+      url: "/book"
+      weight: 3
 
     - name: "درباره ما"
       url: "/about"
-      weight: 5
+      weight: 4
     
     - name: "گیت هاب"
       url: "https://github.com/solaha-net/website"
-      weight: 6
-
+      weight: 5
+      
 taxonomies:
   series: "series"
   tags: "tags"

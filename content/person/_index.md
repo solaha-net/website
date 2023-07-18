@@ -1,5 +1,5 @@
 +++
-aliases = ["posts", "articles", "blog", "showcase", "docs"]
+aliases = ["person", "blog"]
 title = "مطالب"
 author = "نویسندگان"
 tags = ["index"]
