@@ -2,8 +2,7 @@
 title = "درباره صلحا"
 description = "آنچه باید دانست"
 date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+aliases = ["about-us"]
 +++
 
 صلحا یک پروژه متن باز با رویکرد جمع آوری و طبقه بندی اطلاعات شهدا و افرادی است که در اصطلاح مذهبی به آنها افراد صالح گفته می شود
